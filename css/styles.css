@@ -35,7 +35,7 @@ a {
   display: flex;
   justify-content: space-around;
   background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.8)),
-    url('/images/footer.png');
+    url('./images/footer.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -96,7 +96,7 @@ a {
 
 /* Hero */
 .hero {
-  background-image: url('/images/avatar2.jpg');
+  background-image: url('./images/avatar2.jpg');
   width: 1440px;
   height: 740px;
 }
@@ -147,7 +147,7 @@ a {
 
 /* Trailer */
 .video {
-  background-image: url('/images/avatar.jpg');
+  background-image: url('./images/avatar.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 1440px;
@@ -173,7 +173,7 @@ a {
 /* Language */
 .features {
   height: 700px;
-  background-image: url('/images/mountains.png');
+  background-image: url('./images/mountains.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -206,7 +206,7 @@ a {
   /* height: 225px; */
   color: #fff;
   background-image: linear-gradient(to right, rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.8)),
-    url('/images/footer.png');
+    url('./images/footer.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
