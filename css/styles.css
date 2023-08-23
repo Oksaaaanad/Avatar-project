@@ -216,14 +216,16 @@ a {
 .footer-position {
   display: flex;
   justify-content: end;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .footer-logo {
+  margin-top: 77px;
   margin-bottom: 45px;
   margin-right: 70px;
 }
 .line {
   margin-top: 35px;
+  margin-bottom: 35px;
 }
 .dotted {
   height: 2px;
@@ -234,6 +236,7 @@ a {
   margin: 0;
 }
 .address-list {
+  margin-top: 80px;
 }
 .address-item {
   display: flex;
@@ -246,5 +249,7 @@ a {
 .desc {
   display: flex;
   justify-content: center;
+  margin-left: 290px;
+  margin-top: -37px;
   padding-bottom: 25px;
 }
