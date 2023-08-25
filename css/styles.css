@@ -102,11 +102,11 @@ a {
 }
 .hero-position {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   padding-top: 160px;
 }
 .title {
-  opacity: 0;
+  display: none;
   margin: 0;
 }
 /* .hero-list-item {
@@ -138,10 +138,14 @@ a {
 .icons {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .app {
   width: 30px;
   height: 30px;
+}
+.app + .app {
+  margin-top: 25px;
 }
 /* Main */
 .main {
@@ -240,6 +244,7 @@ a {
 }
 .address-item {
   display: flex;
+  align-items: center;
   margin-bottom: 20px;
 }
 
